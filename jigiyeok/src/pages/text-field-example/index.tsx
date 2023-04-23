@@ -9,7 +9,7 @@ type FormType = {
   error: boolean;
 };
 
-const formValueMaxLength = 100;
+const formValueMaxLength = 20;
 
 const TextFieldExamplePage = () => {
   const [form, setForm] = useState<FormType>({
